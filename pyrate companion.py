@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import android
 
 droid = android.Android()
-isbn = '9788375067293'
 
 def skanuj():
     '''Korzystajac z androidowego modulu skanuje kod kreskowy i zwraca numer
